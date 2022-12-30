@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>
+        OchoKOM - Video Player
+    </title>
+    <link rel="shortcut icon" href="ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/all.css">
+    <link rel="stylesheet" media="(prefers-color-scheme:light)" href="styles/light.css">
+    <link rel="stylesheet" media="(prefers-color-scheme:dark)" href="styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="video_player" class="video_player">
+            <video preload="metadata" id="main-video">
+                <source sizes="360" src="assets/video(360p).mp4" type="video/mp4">
+                <source sizes="720" src="assets/video(720p).mp4" type="video/mp4">
+                <source sizes="1080" src="assets/video(1080p).mp4" type="video/mp4">
+                <track id="track1" label="Français" kind="subtitles" src="./assets/subtitle (fr).vtt" srclang="fr">
+                <track id="track2" label="English" kind="subtitles" src="./assets/subtitle (en).vtt" srclang="en">
+            </video>
+        </div>
+    </div>
+    <footer>
+        <span>Copyright © 2023  <a href="https://www.youtube.com/@ochokom/featured">OchoKOM</a> | All rights  reserved</span>
+    </footer>
+    <script src="scripts/player.js"></script>
+    <script src="scripts/elements.js"></script>
+    <script src="scripts/controls.js"></script>
+</body>
+</html>

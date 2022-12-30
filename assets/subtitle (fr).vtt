@@ -1,0 +1,89 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.880
+nmap
+
+00:00:01.880 --> 00:00:03.530
+map est un scanner de ports c'est à dire
+
+00:00:03.530 --> 00:00:04.910
+un outil qui va permettre de tester
+
+00:00:04.910 --> 00:00:06.470
+toutes les manières possibles de
+
+00:00:06.470 --> 00:00:08.509
+communiquer avec un serveur distant il
+
+00:00:08.509 --> 00:00:09.710
+va pour celui ci est d'identifier quels
+
+00:00:09.710 --> 00:00:11.120
+sont les ports ouverts c'est à dire les
+
+00:00:11.120 --> 00:00:13.309
+canaux puis quels sont les services qui
+
+00:00:13.309 --> 00:00:15.769
+répondent derrière la syntaxe de base c'est
+
+00:00:15.769 --> 00:00:18.320
+nmap suivi de l'ip et du serveur avec
+
+00:00:18.320 --> 00:00:19.579
+cette commande n va va essayer de
+
+00:00:19.579 --> 00:00:21.619
+déterminer si parmi les 1000 ports les
+
+00:00:21.619 --> 00:00:23.419
+plus fréquents certains sont ouverts sur
+
+00:00:23.419 --> 00:00:24.259
+la machine distante
+
+00:00:24.259 --> 00:00:26.539
+si on souhaite parcourir la totalité des
+
+00:00:26.539 --> 00:00:28.310
+ports alors il faudra ajouter l'option -
+
+00:00:28.310 --> 00:00:30.560
+p - parmi les options principales et
+
+00:00:30.560 --> 00:00:32.299
+on a l'option sv qui va demander à 
+
+00:00:32.299 --> 00:00:34.250
+nmap d'obtenir les numéros de version des
+
+00:00:34.250 --> 00:00:35.840
+services détecté il ya également
+
+00:00:35.840 --> 00:00:37.520
+l'option - o qui va tenter d'identifier
+
+00:00:37.520 --> 00:00:40.490
+l' os de la machine et enfin l'option
+
+00:00:40.490 --> 00:00:42.680
+sc qui va dérouler une série de scripts
+
+00:00:42.680 --> 00:00:44.960
+par défaut pour ainsi détecter quelques
+
+00:00:44.960 --> 00:00:46.710
+vulnérabilités courante
+
+00:00:46.710 --> 00:00:49.559
+ces trois options sv aux essais peuvent
+
+00:00:49.559 --> 00:00:53.390
+être regroupées en un seul argument - A
+
+00:00:53.390 --> 00:00:55.070
+voilà pour l'essentiel et pour en savoir
+
+00:00:55.070 --> 00:00:58.450
+plus n'oubliez pas de consulter le masne
+

@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Poppins';
+    src:   url(Poppins-Regular.ttf);
+}
+::selection{
+    background: #00d0ff;
+    color: #022323;
+}
+::-webkit-scrollbar{
+    appearance: none;
+    background: none;
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb{
+    appearance: none;
+    background: #287dfc;
+    border-radius: 3px;
+}
+
+.btn{
+    position: relative;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px 2px;
+    color: #fff;
+}
+.btn-info{
+    background-color: #cef1f7;
+    color: #02346e;
+}
+.btn-info:hover{
+    background-color: #a4b8cf;
+}
+.btn-success{
+    background-color: #1fdd5e;
+}
+.btn-success:hover{
+    background-color: #089252;
+}
+.btn-primary{
+    background-color: #2d81ff;
+}
+.btn-primary:hover{
+    background-color: #02346e;
+}
+.btn-warning{
+    background-color: #ffc107;
+}
+.btn-warning:hover{
+    background-color: #d47305;
+}
+.btn-danger{
+    background-color: #dc3545;
+}
+.btn-danger:hover{
+    background-color: #6e0202;
+}

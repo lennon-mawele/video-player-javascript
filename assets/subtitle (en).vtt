@@ -1,0 +1,89 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:01.880
+nmap
+
+00:00:01.880 --> 00:00:03.530
+map is a ports scanner, that is to say
+
+00:00:03.530 --> 00:00:04.910
+a tool that will allow you to test
+
+00:00:04.910 --> 00:00:06.470
+all the possible ways of
+
+00:00:06.470 --> 00:00:08.509
+communicating with a remote server, it
+
+00:00:08.509 --> 00:00:09.710
+goes for this one is to identify which
+
+00:00:09.710 --> 00:00:11.120
+ports are open, that is to say the
+
+00:00:11.120 --> 00:00:13.309
+channels  then what are the services that
+
+00:00:13.309 --> 00:00:15.769
+respond behind the basic syntax is
+
+00:00:15.769 --> 00:00:18.320
+nmap followed by the ip and the server with
+
+00:00:18.320 --> 00:00:19.579
+this command n will try to
+
+00:00:19.579 --> 00:00:21.619
+determine if among the 1000
+
+00:00:21.619 --> 00:00:23.419
+most frequent ports some are open on
+
+00:00:23.419 --> 00:00:24.259
+the remote machine
+
+00:00:24.259 --> 00:00:26.539
+if we want to browse  all the
+
+00:00:26.539 --> 00:00:28.310
+ports then it will be necessary to add the -
+
+00:00:28.310 --> 00:00:30.560
+p - option among the main options and
+
+00:00:30.560 --> 00:00:32.299
+we have the sv option which will ask to 
+
+00:00:32.299 --> 00:00:34.250
+nmap to obtain the version numbers of the
+
+00:00:34.250 --> 00:00:35.840
+detected services there is also
+
+00:00:35.840 --> 00:00:37.520
+the - o option  which will attempt to identify
+
+00:00:37.520 --> 00:00:40.490
+the oparating system of the machine and finally the
+
+00:00:40.490 --> 00:00:42.680
+sc option which will run a series of
+
+00:00:42.680 --> 00:00:44.960
+default scripts has to detect some
+
+00:00:44.960 --> 00:00:46.710
+common vulnerabilities
+
+00:00:46.710 --> 00:00:49.559
+these three sv options to the tests can
+
+00:00:49.559 --> 00:00:53.390
+be grouped into a single argument  -A
+
+00:00:53.390 --> 00:00:55.070
+here is for the essential and to know
+
+00:00:55.070 --> 00:00:58.450
+more do not forget to consult the masne
+
