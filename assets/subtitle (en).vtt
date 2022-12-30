@@ -76,7 +76,7 @@ default scripts has to detect some
 common vulnerabilities
 
 00:00:46.710 --> 00:00:49.559
-these three sv options to the tests can
+these three sv o and sc can
 
 00:00:49.559 --> 00:00:53.390
 be grouped into a single argument  -A
