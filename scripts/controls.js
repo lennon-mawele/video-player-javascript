@@ -486,8 +486,7 @@ function countCont() {
     video_player.style.cursor ='none'
   }  
 }
-document.addEventListener('fullscreenchange', fullscreenChange)
-function fullscreenChange() {
+document.addEventListener('fullscreenchange',()=> {
   if (document.fullscreenElement == null) {
     if (video_player.classList.contains("openFullScreen")) {
       video_player.classList.remove("openFullScreen");
@@ -510,7 +509,7 @@ function fullscreenChange() {
     }
         
   }
-}
+})
 video_player.addEventListener("dblclick", () => {
   settings.classList.remove("active");
   settingsBtn.classList.remove("active");
